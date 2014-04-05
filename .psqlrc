@@ -1,4 +1,4 @@
-# Universal .psqlrc
+-- Universal .psqlrc
 \set QUIET
 \set HISTFILE ~/.psql_history- :HOST - :DBNAME
 \set HISTSIZE 10000
