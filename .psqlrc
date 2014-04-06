@@ -3,7 +3,11 @@
 \set HISTFILE ~/.psql_history- :HOST - :DBNAME
 \set HISTSIZE 10000
 \set HISTCONTROL ignoreboth
-\unset QUIET
 \timing
-\set PROMPT1 '%[%033[32m%]%[%033[36m%]%n%[%033[34m%]@%[%033[36m%]%`hostname`:%>%[%033[33m%]/%/ %[%033[K%]%[%033[0m%]%[%033[1;33m%]%#%[%033[0m%] '
+--\pset linestyle unicode
+--\pset border 2
+\pset null NULL
+
+\unset QUIET
+\set PROMPT1 '%[%033[32m%]%[%033[36m%]%n%[%033[34m%]@%[%033[36m%]%m:%>%[%033[33m%]/%/%[%033[K%]%[%033[0m%]%[%033[1;33m%]%#%[%033[0m%] '
 
