@@ -8,4 +8,5 @@ alias seq='seq --format=%1.f'
 alias pine='alpine'
 alias py='python'
 alias pwd='pwd -P'
+alias s='screen -DR'
 
