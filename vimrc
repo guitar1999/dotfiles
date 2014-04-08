@@ -1,4 +1,3 @@
-# Universal .vimrc
 set term=ansi
 syntax on
 set background=dark
