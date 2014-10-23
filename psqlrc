@@ -10,7 +10,7 @@
 \pset format wrapped 
 \set COMP_KEYWORD_CASE upper
 \unset QUIET
-\set PROMPT1 '%[%033[32m%]%[%033[36m%]%n%[%033[34m%]@%[%033[36m%]%m:%>%[%033[33m%]/%/%[%033[K%]%[%033[0m%]%[%033[1;33m%]%#%[%033[0m%] '
+-- \set PROMPT1 '%[%033[32m%]%[%033[36m%]%n%[%033[34m%]@%[%033[36m%]%m:%>%[%033[33m%]/%/%[%033[K%]%[%033[0m%]%[%033[1;33m%]%#%[%033[0m%] '
 
 
 -- Some useful queries (from https://github.com/AF83/dotfiles/blob/master/.psqlrc)
