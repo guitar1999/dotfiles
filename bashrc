@@ -14,7 +14,7 @@ export LESS="-eMX"
 HISTSIZE=100000
 HISTFILESIZE=100000
 export HISTCONTROL=ignoreboth
-export HISTIGNORE='ls:cd:vi:exit:pwd:st:history*:clear:lh:htop:top:R:c:cu:cdc:home2'
+export HISTIGNORE='ls:cd:vi:exit:pwd:st:history*:clear:lh:htop:top:R:c:cu:cdc:home2:rm*'
 export R_HISTFILE=~/.Rhistory
 export R_HISTSIZE='100000'
 
