@@ -18,3 +18,4 @@ export HISTIGNORE='ls:cd:vi:exit:pwd:st:history*:clear:lh:htop:top:R:c:cu:cdc:ho
 export R_HISTFILE=~/.Rhistory
 export R_HISTSIZE='100000'
 
+export PS1="\u@\h:\W\$(__git_ps1)\$ "
