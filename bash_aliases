@@ -9,4 +9,4 @@ alias pine='alpine'
 alias py='python'
 alias pwd='pwd -P'
 alias s='screen -DR'
-
+alias mkdir='mkdir -p'
